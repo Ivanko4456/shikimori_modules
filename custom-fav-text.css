@@ -1,0 +1,15 @@
+#profiles_show > section > div > div.profile-content > div.cc-2.block > div.c-column.c-right > div.block > div.subheadline > a {
+  font-size:0px
+}
+#profiles_show > section > div > div.profile-content > div.cc-2.block > div.c-column.c-right > div.block > div.subheadline {
+  height:30px
+}
+  
+#profiles_show > section > div > div.profile-content > div.cc-2.block > div.c-column.c-right > div.block > div.subheadline > a::after{
+  content: var(--favour-text);
+  font-size: 15px;
+}
+  
+#profiles_show > section > div > div.profile-content > div.cc-2.block > div.c-column.c-right > div.block > div.subheadline > a::before{
+  font-size: 15px;
+}
