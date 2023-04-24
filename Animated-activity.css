@@ -1,3 +1,4 @@
+/*Анимированный график активности*/
 .activity .graph.vertical .line .bar {
 	box-sizing: content-box;
 	transform: translateY(1px);
