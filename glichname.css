@@ -1,0 +1,27 @@
+/* анимка имени */
+.p-profiles .profile-head .c-brief header h1 {
+  animation-iteration-count: 1, infinite;
+  animation-duration: 2s, 3s;
+  animation-delay: 0s, 2s;
+  animation-name: set_name, name_animation;
+}
+
+.p-profiles .profile-head .c-brief header h1:hover {
+  animation-duration: 2s; 
+  animation-name: return_name;
+}
+
+@keyframes return_name {
+  0% {text-shadow: red -2.7px 0, cyan 2.7px 0;}
+  100% {text-shadow: red 0px 0, cyan 0px 0;}
+}
+
+@keyframes set_name {
+  0% {text-shadow: red 0px 0, cyan -0px 0;}
+    100% {text-shadow: red -3px 0, cyan 3px 0;}
+}
+
+@keyframes name_animation {
+  0%, 100% {text-shadow: red -3px 0, cyan 3px 0;}
+  50% {text-shadow: red -2px 0, cyan 2px 0;}
+}
