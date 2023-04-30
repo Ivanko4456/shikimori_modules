@@ -1,0 +1,4 @@
+#profiles_show > section > div > div.profile-content > div.cc-2.block > div.c-column.c-left > div.activity:hover {
+   content: var(--hovact-content); 
+   height: 167px;
+}
